@@ -1,0 +1,26 @@
+/* 重置 */
+@import "sass/reset";
+/* 公共 */
+.clearfix {
+    clear: both;
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body{
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+/* 公用边距及字体 */
+@import "sass/spacing";
+@import "sass/fontSize";
