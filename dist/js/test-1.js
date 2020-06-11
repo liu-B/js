@@ -134,7 +134,7 @@ if(1 > 2){
 } */
 
 //练习一：计算2 的n次幂，n可输入，n为自然数：
-var n = parseInt(window.prompt('输入数字'));
+// var n = parseInt(window.prompt('输入数字'));
 var mul1 = 1;
 for(var i = 0; i < n; i ++){
     // mul *= 2;
@@ -153,9 +153,9 @@ for(var i = 1; i <= n;i ++){
 //练习四：编写一程序，输入一个三位书的正整数，输出时反向输出。如：输出456，输出654：
 
 //练习五：输入a、b、c三个数字，打印出最大的：
-var a = parseInt(window.prompt('输入数字'));
+/* var a = parseInt(window.prompt('输入数字'));
 var b = parseInt(window.prompt('输入数字'));
-var c = parseInt(window.prompt('输入数字'));
+var c = parseInt(window.prompt('输入数字')); */
 
 if(a >  b){
     if(a > c){

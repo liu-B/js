@@ -1,25 +1,22 @@
 /* 重置 */
 @import "sass/reset";
 /* 公共 */
-.clearfix {
-    clear: both;
+.clearfix{
     overflow: hidden;
+    clear: both;
 }
-
-.fl {
+.fl{
     float: left;
 }
-
-.fr {
+.fr{
     float: right;
 }
 .w{
-	width: 1200px;
-	margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
 }
-
 body{
-    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
 }
 /* 公用边距及字体 */
 @import "sass/spacing";

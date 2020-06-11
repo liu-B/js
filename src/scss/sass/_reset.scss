@@ -20,26 +20,22 @@ textarea,
 p,
 blockquote,
 th,
-td {
+td{
     margin: 0;
     padding: 0;
 }
-
-table {
-    border-collapse: collapse;
+table{
     border-spacing: 0;
+    border-collapse: collapse;
 }
-
 fieldset,
-img {
+img{
     border: 0;
 }
-
-img {
-    width: 100%;
+img{
     display: block;
+    width: 100%;
 }
-
 address,
 caption,
 cite,
@@ -48,46 +44,39 @@ dfn,
 em,
 strong,
 th,
-var {
+var{
     font-style: normal;
     font-weight: normal;
 }
-
 ol,
 ul,
-li {
+li{
     list-style: none;
 }
-
 caption,
-th {
+th{
     text-align: left;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-    font-size: 100%;
+h6{
     font-weight: normal;
+    font-size: 100%;
 }
-
 q:before,
-q:after {
-    content: '';
+q:after{
+    content: "";
 }
-
 abbr,
-acronym {
+acronym{
     border: 0;
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-i {
+i{
     display: inline-block;
 }
